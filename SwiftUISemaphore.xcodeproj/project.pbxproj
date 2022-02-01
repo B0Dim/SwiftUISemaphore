@@ -11,6 +11,8 @@
 		0823813C27A9701B001063D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0823813B27A9701B001063D1 /* ContentView.swift */; };
 		0823813E27A9701C001063D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0823813D27A9701C001063D1 /* Assets.xcassets */; };
 		0823814127A9701C001063D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0823814027A9701C001063D1 /* Preview Assets.xcassets */; };
+		0823814827A9704E001063D1 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0823814727A9704E001063D1 /* CircleView.swift */; };
+		0823814A27A97062001063D1 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0823814927A97062001063D1 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0823813B27A9701B001063D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0823813D27A9701C001063D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0823814027A9701C001063D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0823814727A9704E001063D1 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		0823814927A97062001063D1 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				0823813927A9701B001063D1 /* SwiftUISemaphoreApp.swift */,
 				0823813B27A9701B001063D1 /* ContentView.swift */,
+				0823814727A9704E001063D1 /* CircleView.swift */,
+				0823814927A97062001063D1 /* ButtonView.swift */,
 				0823813D27A9701C001063D1 /* Assets.xcassets */,
 				0823813F27A9701C001063D1 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0823814827A9704E001063D1 /* CircleView.swift in Sources */,
 				0823813C27A9701B001063D1 /* ContentView.swift in Sources */,
+				0823814A27A97062001063D1 /* ButtonView.swift in Sources */,
 				0823813A27A9701B001063D1 /* SwiftUISemaphoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
